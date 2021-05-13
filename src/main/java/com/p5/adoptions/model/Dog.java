@@ -6,4 +6,15 @@ public class Dog extends Animal
     {
         super(name, photoUrl);
     }
+
+    public void iAmADog()
+    {
+        System.out.println("Dogs are special!");
+    }
+
+    @Override
+    public void speak()
+    {
+        System.out.println("Dog speaks!");
+    }
 }
