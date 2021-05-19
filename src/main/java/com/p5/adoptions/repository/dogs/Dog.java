@@ -22,7 +22,7 @@ public class Dog
         return id;
     }
 
-    public com.p5.adoptions.repository.dogs.Dog setId(Integer id)
+    public Dog setId(Integer id)
     {
         this.id = id;
         return this;
@@ -33,7 +33,7 @@ public class Dog
         return name;
     }
 
-    public com.p5.adoptions.repository.dogs.Dog setName(String name)
+    public Dog setName(String name)
     {
         this.name = name;
         return this;
@@ -44,7 +44,7 @@ public class Dog
         return url;
     }
 
-    public com.p5.adoptions.repository.dogs.Dog setUrl(String url)
+    public Dog setUrl(String url)
     {
         this.url = url;
         return this;
