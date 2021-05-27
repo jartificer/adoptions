@@ -6,7 +6,7 @@ import com.p5.adoptions.repository.animals.Animal;
 import java.util.ArrayList;
 import java.util.List;
 
-public class AnimalAdpater
+public class AnimalAdapter
 {
     public static Animal fromDto(AnimalDTO AnimalDTO)
     {
