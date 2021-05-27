@@ -16,7 +16,7 @@ public class AnimalShelterAdapter
                 .setAddress(shelterDTO.getAddress())
                 .setName(shelterDTO.getName())
                 .setId(shelterDTO.getId())
-                .setAnimals(AnimalAdpater.fromDto(shelterDTO.getAnimals()));
+                .setAnimals(AnimalAdapter.fromDto(shelterDTO.getAnimals()));
         return animalShelter;
     }
 
@@ -26,7 +26,7 @@ public class AnimalShelterAdapter
                 .setAddress(shelter.getAddress())
                 .setId(shelter.getId())
                 .setName(shelter.getName())
-                .setAnimals(AnimalAdpater.toListDto(shelter.getAnimals()));
+                .setAnimals(AnimalAdapter.toListDto(shelter.getAnimals()));
     }
 
 }
