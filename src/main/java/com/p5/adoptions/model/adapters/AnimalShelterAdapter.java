@@ -39,14 +39,4 @@ public class AnimalShelterAdapter
         return dtos;
     }
 
-    public static List<AnimalShelterDTO> toListDto(List<AnimalShelter> animals) {
-        List<AnimalShelterDTO> dtos = new ArrayList<>();
-
-        for (AnimalShelter animalShelter : animals) {
-            dtos.add(toDto(animalShelter));
-        }
-
-        return dtos;
-    }
-
 }
